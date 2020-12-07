@@ -11,12 +11,21 @@
     "url": "git+https://github.com/adrhardtke/js-tdd.git"
   },
   "keywords": [
-    "js","tdd","library"
+    "js",
+    "tdd",
+    "library"
   ],
   "author": "Adriano Hardtke",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/adrhardtke/js-tdd/issues"
   },
-  "homepage": "https://github.com/adrhardtke/js-tdd#readme"
+  "homepage": "https://github.com/adrhardtke/js-tdd#readme",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
 }
