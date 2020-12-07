@@ -4,6 +4,7 @@
   "description": "Curso de JS com TDD na prática do willian justen.",
   "main": "index.js",
   "scripts": {
+    "lint": "yarn eslint src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,7 @@
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1"
+    "eslint-plugin-promise": "^4.2.1",
+    "husky": "^4.3.5"
   }
 }
